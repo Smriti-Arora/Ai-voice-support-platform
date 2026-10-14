@@ -1,0 +1,32 @@
+# Backend API
+fastapi
+uvicorn[standard]
+pydantic-settings
+
+# Database
+sqlalchemy
+psycopg[binary]
+alembic
+
+# Authentication and security
+PyJWT
+pwdlib[argon2]
+python-multipart
+
+# Agentic AI
+langgraph
+langchain
+langchain-core
+langchain-openai
+
+# RAG and embeddings
+pgvector
+sentence-transformers
+
+# HTTP requests and configuration
+httpx
+python-dotenv
+
+# Testing
+pytest
+pytest-asyncio
